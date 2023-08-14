@@ -1,36 +1,23 @@
-#include (iostream.h)
-#include (conio.h)
+#include <iostream>
 
-void main ()
-#include (iostream.h)
-#include (conio.h)
+unsigned long long factorial(int n) {
+    if (n <= 1) {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
 
-void main ()
+int main() {
+    int num;
+    std::cout << "Enter a number: ";
+    std::cin >> num;
 
-#include (iostream.h)
-#include (conio.h)
+    if (num < 0) {
+        std::cout << "Factorial is not defined for negative numbers." << std::endl;
+    } else {
+        unsigned long long result = factorial(num);
+        std::cout << "Factorial of " << num << " is " << result << std::endl;
+    }
 
-void main ()
-#include (iostream.h)
-#include (conio.h)
-
-void main ()
-
-#include (iostream.h)
-#include (conio.h)
-
-void main ()
-#include (iostream.h)
-#include (conio.h)
-
-void main ()
-#include (iostream.h)
-#include (conio.h)
-
-int (for123+f>1
-not (lenvo)
-#include (iostream.h)
-#include (conio.h)
-
-void main ()
-int < f=F
+    return 0;
+}
